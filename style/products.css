@@ -23,10 +23,12 @@ body{
     font-family: "Noto Sans TC", sans-serif;
 }
 .container{
-    width: 1296px;
+    max-width: 1320px;
    margin: 0 auto;
     text-decoration: none;
     color: #000;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 .row{
     display: flex;
@@ -50,6 +52,16 @@ body{
 .breadcrumb-link {
     color: #6C757D;
 }
+
+@media(max-width:767px){
+  .breadcrumb-item + .breadcrumb-item::before{
+    padding: 0 8px;
+  }
+  .breadcrumb-link{
+    font-size: 14px;
+  }
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -97,11 +109,18 @@ ul.text-style button {
   background: #f8f9fa;
   color: #6c757d;
   text-align: center;
- 
+}
+@media (max-width: 576px) {
+  footer ul a {
+    display: block; /* 讓 <a> 獨佔一行 */
+  }
+}
+footer img{
+   height: 46px;
+  width: 129px;
+  margin: 0 0px ;
 }
 .footer p {
-  padding-top: 32px;
-  margin-bottom: 4px;
   line-height: 150%;
   letter-spacing: 5%;
   font-family: "Noto Sans TC", sans-serif;
@@ -110,4 +129,9 @@ ul.text-style button {
 .border-top{
 border-top:1px solid #DEE2E6;
 padding-bottom: 64px;
+}
+
+.gray-line {
+  border-bottom: 2px solid #dee2e6;
+  margin-top: 24px;
 }

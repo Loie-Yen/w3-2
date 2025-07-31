@@ -169,6 +169,10 @@ line-height: 1;
     width: 64px;
     text-align: center;
     color: #6C757D;
+    background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 .button-size{
     border: 1px solid #DEE2E6;

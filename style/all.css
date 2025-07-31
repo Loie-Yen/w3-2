@@ -50,9 +50,88 @@ padding-top: 56px;}
 .mr-8{
     margin-right: 8px;
 }
+.mb-0{
+  margin-bottom: 0;
+}
+.mt-0{
+  margin-top: 0;
+}
+
+@media(max-width: 767px)
+{ 
+  .m-md-12{
+    margin: 0 12px;
+  }
+  .mb-md-0{
+    margin-bottom: 0px;
+  }
+  .mb-md-8{
+    margin-bottom: 8px;
+  }
+  .mb-md-12{
+    margin-bottom: 12px;
+  }
+  .mb-md-16{
+    margin-bottom: 16px;
+  }
+  .mb-md-24{
+    margin-bottom: 24px;
+  }
+  .mb-md-32{
+    margin-bottom: 32px;
+  }
+  .mt-md-0{
+    margin-top: 0;
+  }
+  .mb-md-0{
+    margin-bottom: 0;
+  }
+  .mt-md-32{
+    margin-top: 32px;
+  }
+   .mt-md-16{
+    margin-top: 16px;
+  }
+  .m-md-0{
+    margin: 0 0;
+  }
+}
+
+@media(max-width: 576px)
+{
+  .mr-sm-0{
+    margin-right: 0;
+  }
+  .mr-sm-16{
+    margin-right: 16px;
+  }
+  .mb-sm-4{
+    margin-bottom: 4px;
+  }
+  .mb-sm-8{
+    margin-bottom: 8px;
+  }
+   .mb-sm-0{
+    margin-bottom: 0px;
+  }
+  .mt-sm-16{
+    margin-top: 16px;
+  }
+  .mb-sm-16{
+    margin-bottom: 16px;
+  }
+}
+
+
+.p-32{
+  padding: 32px 0;
+}
+
+
 .pb-24 {
   padding-bottom: 24px;
 }
+
 .pb-32 {
   padding-bottom: 32px;
 }
@@ -71,6 +150,13 @@ padding-top: 56px;}
 .pt-64{
     padding-top: 64px;
 }
+.pt-32{
+    padding-top: 32px;
+}
+.pb-32{
+    padding-bottom: 32px;
+}
+
 .pb-64{
     padding-bottom: 64px;
 }
@@ -84,6 +170,97 @@ padding-top: 56px;}
 .py-64 {
   padding: 64px 0;
 }
+.py-335 {
+  padding: 33.5px 0;
+}
+
+.px-72{
+  padding: 0 72px;
+}
+.pt-0{
+  padding-top: 0;
+}
+.pb-0{
+  padding-bottom: 0;
+}
+
+
+@media(max-width: 767px)
+{ 
+  .p-md-24{
+    padding: 24px;
+  }
+  
+  .py-md-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .py-md-32{
+    padding-left: 32px;
+    padding-bottom: 32px;
+  }
+  .pb-md-32{
+    padding-bottom: 32px;
+  }
+  .pb-md-24{
+    padding-bottom: 24px;
+  }
+  .pt-md-24{
+    padding-top: 24;
+  }
+  .pt-md-0{
+    padding-top: 0;
+  }
+  .pb-md-0{
+    padding-bottom: 0;
+  }
+  .pt-md-0{
+    padding-top: 0;
+  }
+  .px-md-12{
+    padding: 0 12px;
+  }
+}
+
+
+
+  @media(max-width: 576px)
+ {
+  .px-sm-12{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .px-sm-0{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .py-sm-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .py-sm-32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .pb-sm-24{
+    padding-bottom: 24px;
+  }
+   .pb-sm-32{
+    padding-bottom: 32px;
+  }
+  .pb-sm-0{
+    padding-bottom: 0px;
+  }
+  .pt-sm-16{
+    padding-top: 16px;
+  }
+  
+ }
+
+
+
+
 
 .d-flex{
     display: flex;
@@ -105,6 +282,40 @@ padding-top: 56px;}
     text-decoration: none;
      color: #000;
 }
+
+
+.d-none{
+  display: none;
+}
+
+
+@media(max-width: 767px)
+{
+  .d-md-block{
+    display: block;
+  }  
+   .d-md-none{
+    display: none;
+  }  
+  
+}
+
+@media(max-width: 576px)
+{
+  .d-sm-block{
+    display: block;
+    text-align: left;
+  }  
+   .d-sm-none{
+    display: none;
+  }  
+  
+}
+
+
+
+
+
 .h2{
     font-weight: 700;
     font-size: 32px;
@@ -147,6 +358,36 @@ padding-top: 56px;}
     letter-spacing: 5%;
     font-size: 14px;
 }
+
+@media(max-width: 767px)
+{
+  .h3-md{
+    font-size: 28px;}
+  .h4-md{
+    font-size: 24px;}
+  .h5-md{
+    font-size: 20px;}
+  .h6-md{
+    font-size: 16px;}    
+  
+}
+
+@media(max-width:576px){
+  .h3-sm{
+    font-size: 28px;}
+  .h4-sm{
+    font-size: 24px;}
+  .h5-sm{
+    font-size: 20px;}
+  .h6-sm{
+    font-size: 16px;}   
+
+}
+
+
+
+
+
 
 .col-1{
     padding-left: 12px;
@@ -207,4 +448,31 @@ padding-top: 56px;}
     padding-left: 12px;
     padding-right: 12px;
     width:calc(100%/12*12) ;
+}
+
+@media (max-width: 767px) {
+  .row {
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+  .col-md-1 {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: calc(100% / 4);
+  }
+  .col-md-2 {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: calc(100% / 4 * 2);
+  }
+  .col-md-3 {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: calc(100% / 4 * 3);
+  }
+  .col-md-4 {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 100%;
+  }
 }
