@@ -59,7 +59,7 @@ padding-top: 56px;}
 
 @media(max-width: 767px)
 { 
-  .m-md-12{
+  .mx-md-12{
     margin: 0 12px;
   }
   .mb-md-0{
@@ -122,10 +122,6 @@ padding-top: 56px;}
   }
 }
 
-
-.p-32{
-  padding: 32px 0;
-}
 
 
 .pb-24 {
@@ -275,6 +271,9 @@ padding-top: 56px;}
 .align-center{
     align-items: center;
 }
+.text-left { 
+  text-align: left; }
+
 .flex-wrap{
     flex-wrap: wrap;
 }
@@ -282,6 +281,7 @@ padding-top: 56px;}
     text-decoration: none;
      color: #000;
 }
+
 
 
 .d-none{
